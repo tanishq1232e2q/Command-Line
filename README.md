@@ -8,35 +8,35 @@ The problem this utility solves is tracking and analyzing command-line context s
 # b. How to Run the Program
 Prerequisites
 
-Node.js installed (v16+ recommended)
+* Node.js installed (v16+ recommended)
 
-No external libraries or frameworks required
+* No external libraries or frameworks required
 
 Steps to Run
 
-Clone or download the project folder.
+* Clone or download the project folder.
 
-Open a terminal (Command Prompt / PowerShell / VS Code terminal).
+* Open a terminal (Command Prompt / PowerShell / VS Code terminal).
 
-Navigate to the project directory:
+* Navigate to the project directory:
 
 * cd D:\Command-Line
 
 
-Run the tracker from any directory you are working in:
+* Run the tracker from any directory you are working in:
 
 * node D:\Command-Line\track.js
 
 
-Change to another directory and run the tracker again to record a context switch:
+* Change to another directory and run the tracker again to record a context switch:
 
-cd C:\Users\HP\Music
-node D:\Command-Line\track.js
+* cd C:\Users\HP\Music
+* node D:\Command-Line\track.js
 
 
-To view the context switching report, run:
+* To view the context switching report, run:
 
-node report.js
+* node report.js
 
 
 The program stores all tracking data locally in a data.json file.
