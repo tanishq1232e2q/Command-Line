@@ -1,11 +1,11 @@
-** Developer Context Switch Tracker (CLI)
-a. Problem Statement
+## Developer Context Switch Tracker (CLI)
+# a. Problem Statement
 
 As a developer, I often work on multiple projects in parallel and frequently switch between different directories using the command line. This frequent context switching negatively impacts focus and productivity, but it is difficult to measure or analyze how often it happens during daily development work.
 
 The problem this utility solves is tracking and analyzing command-line context switching by recording when a developer moves between different working directories and executes commands. By capturing this data, the tool provides insights into focus patterns and helps identify excessive or unnecessary switching between projects.
 
-b. How to Run the Program
+# b. How to Run the Program
 Prerequisites
 
 Node.js installed (v16+ recommended)
@@ -20,12 +20,12 @@ Open a terminal (Command Prompt / PowerShell / VS Code terminal).
 
 Navigate to the project directory:
 
-cd D:\Command-Line
+* cd D:\Command-Line
 
 
 Run the tracker from any directory you are working in:
 
-node D:\Command-Line\track.js
+* node D:\Command-Line\track.js
 
 
 Change to another directory and run the tracker again to record a context switch:
@@ -41,7 +41,7 @@ node report.js
 
 The program stores all tracking data locally in a data.json file.
 
-c. Design Decisions and Assumptions
+# c. Design Decisions and Assumptions
 
 Command-line based tracking:
 The utility tracks context switching only when executed from different working directories. This design aligns with real developer workflows where most development tasks are performed via the terminal.
