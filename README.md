@@ -1,4 +1,4 @@
-## Developer Context Switch Tracker (CLI)
+## Context Switch Tracker (CLI)
 # a. Problem Statement
 
 As a developer, I often work on multiple projects in parallel and frequently switch between different directories using the command line. This frequent context switching negatively impacts focus and productivity, but it is difficult to measure or analyze how often it happens during daily development work.
