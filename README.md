@@ -43,13 +43,13 @@ The program stores all tracking data locally in a data.json file.
 
 # c. Design Decisions and Assumptions
 
-Command-line based tracking:
+* Command-line based tracking:
 The utility tracks context switching only when executed from different working directories. This design aligns with real developer workflows where most development tasks are performed via the terminal.
 
-Local JSON storage:
+* Local JSON storage:
 Data is stored in a simple JSON file to ensure transparency, easy debugging, and no dependency on external databases or services.
 
-Standard libraries only:
+* Standard libraries only:
 The solution uses only Node.js built-in modules (fs, path) to comply with assignment constraints and keep the implementation lightweight.
 
 Explicit execution model:
