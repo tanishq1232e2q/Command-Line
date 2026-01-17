@@ -57,3 +57,11 @@ A context switch is recorded only when the tracker is run after changing directo
 
 Defensive error handling:
 The program safely handles missing or corrupted data files by resetting to a clean state instead of crashing.
+
+# Output Screenshots
+<img width="1920" height="1080" alt="2pic" src="https://github.com/user-attachments/assets/b5d29b89-a71d-4447-8f50-3240e938a2e4" />
+
+<img width="1920" height="1080" alt="1pic" src="https://github.com/user-attachments/assets/5094bdff-10f4-40ad-8009-565bf7283bd6" />
+
+
+
